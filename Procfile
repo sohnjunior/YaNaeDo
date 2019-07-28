@@ -1,0 +1,1 @@
+web: gunicorn YANAEDO.wsgi --log-file -
