@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+
+/* Base styling */
+
+body {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(255,210,0);
+    font-family: 'Raleway', sans-serif;
+}
+
+.search__container {
+    width: 430px;
+    margin: auto;
+}
+
+.search__title {
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+}
+
+.search__input {
+    width: 70%;
+    margin-top: 0.6rem;
+    padding: 12px 24px;
+    background-color: transparent;
+    transition: transform 250ms ease-in-out;
+    font-size: 14px;
+    line-height: 18px;
+    color: #575756;
+    background-color: transparent;
+    background-image: url(http://mihaeltomic.com/codepen/input-search/ic_search_black_24px.svg);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 50px;
+    border: 3px solid #fff;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.search__input::placeholder {
+    color: rgba(87, 87, 86, 1);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.search__input:hover,
+        .search__input:focus {
+    padding: 12px 0;
+    outline: 0;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #575756;
+    border-radius: 0;
+    background-position: 100% center;
+}
+
+.credits__container {
+    margin-top: 24px;
+}
+
+.credits__text {
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.credits__link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 250ms ease-in;
+}
+
+.credits__link:hover,
+        .credits__link:focus {
+    color: rgb(191, 137, 135);
+}
+.hans{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url("real.png");
+}
+
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+   transition: all 0.3s;
+}
+
+button {
+  float: right;
+  background: none;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 0.5em 0.5em;
+  position: relative;
+  text-transform: uppercase;
+}
+
+button::before,
+button::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+  color: #2ecc71;
+}
+.btn-3::after {
+    height: 0;
+    left: 50%;
+    top: 50%;
+    width: 0;
+  }
+  
+  .btn-3:hover:after {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
