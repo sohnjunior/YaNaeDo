@@ -34,7 +34,7 @@ def voice(keyword):
         print("TTS mp3 저장")
         response_body = response.read()
         abspath = os.path.abspath('../')
-        with open('static/' + keyword+'.mp3', 'wb') as f:
+        with open('staticfiles/' + keyword+'.mp3', 'wb') as f:
             f.write(response_body)
     else:
         print("Error Code:" + rescode)

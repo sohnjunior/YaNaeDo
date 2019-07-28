@@ -1,0 +1,25 @@
+.hans{
+    background-color: rgb(255,210,0) !important;
+    padding: 1rem 3rem ;
+}
+.hansfont{
+    font-size: 5rem !important;
+}
+.hansinput{
+    padding: 2rem 2rem;
+    font-size: 2rem !important;
+}
+.hansbutton{
+    padding: 0.95rem 2rem;
+    color: white !important;
+    border-color: white !important;
+    font-size: 1.5rem !important;
+}
+.hotsix{
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-left: 3.5rem;
+}
+a, button, h1,h2,h3{
+    font-family: 'Jua', sans-serif;
+}
